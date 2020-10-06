@@ -1,7 +1,7 @@
 # Junior_task
 # Install samtools and biobambam
 
-The image contains a full install of [samtools](https://github.com/samtools/samtools) and [biobambam](https://gitlab.com/german.tischler/biobambam2), including all necessary dependencies.
+The image contains a install of [samtools](https://github.com/samtools/samtools) and [biobambam](https://gitlab.com/german.tischler/biobambam2).
 
 The image is set up with:
  - Ubuntu 18.04
