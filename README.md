@@ -13,7 +13,7 @@ The image is set up with:
 
 To build the docker image you can do the following  in the folder with Dockerfile:
 ```bash
-$ docker build --tag samtools-biobambam:v1. 
+$ docker build --tag samtools-biobambam:v1 . 
 ```
 
 To run the software you can do the following
