@@ -18,5 +18,5 @@ $ docker build --tag samtools-biobambam:1.
 
 To run the software you can do the following
 ```bash
-$ docker run -it --rm -v $(pwd):/in -w /in samtools-biobambam:1 /bin/bash
+$ docker run -it --rm -v $(pwd):/in -w /in samtools-biobambam:1
 ```
