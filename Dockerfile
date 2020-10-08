@@ -26,7 +26,8 @@ RUN wget https://github.com/samtools/htslib/releases/download/1.11/htslib-1.11.t
 
 #Biobambam2
 RUN wget https://gitlab.com/german.tischler/libmaus2/-/archive/2.0.757-release-20201005124625/libmaus2-2.0.757-release-20201005124625.tar.bz2\
-&& tar jxf libmaus2-2.0.757-release-20201005124625.tar.bz2&& rm libmaus2-2.0.757-release-20201005124625.tar.bz2  \&& cd libmaus2-2.0.757-release-20201005124625\
+&& tar jxf libmaus2-2.0.757-release-20201005124625.tar.bz2&& rm libmaus2-2.0.757-release-20201005124625.tar.bz2  \
+&& cd libmaus2-2.0.757-release-20201005124625\
 &&libtoolize\
 &&aclocal\
 && autoreconf -i -f \
