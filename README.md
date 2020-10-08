@@ -9,6 +9,7 @@ The image is set up with:
  - libdeflate 1.16
  - htslib 1.11
  - bcftools 1.11
+ - libmaus2-2.0.757
  - biobambam2 2.0.175
 
 To build the docker image you can do the following  in the folder with Dockerfile:
